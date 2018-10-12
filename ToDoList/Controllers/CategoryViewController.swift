@@ -15,12 +15,11 @@ class CategoryViewController: UITableViewController {
     
     var categories: Results<Category>?
     
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadCategories()
     }
+    
     
     //MARK: - TableView Datasource Methods
     
@@ -53,9 +52,6 @@ class CategoryViewController: UITableViewController {
     
     //MARK: - Data Manipulation Methods
     
-    
-    
-    
     func save(category: Category) {
         do {
             try realm.write {
@@ -68,17 +64,10 @@ class CategoryViewController: UITableViewController {
     }
 
     
-    
-    
     func loadCategories() {
-        
         categories = realm.objects(Category.self)
         tableView.reloadData()
     }
-    
-    
-    
-    
     
     //MARK: - Add New Categories
     
@@ -105,5 +94,4 @@ class CategoryViewController: UITableViewController {
         
         present(alert, animated: true, completion: nil)
     }
-    
 }

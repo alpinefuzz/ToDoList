@@ -119,7 +119,7 @@
 		F43761B62015E08E00853117 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				F43761B72015E08E00853117 /* AppDelegate.swift */,
+				F45980CD216AFFD500656C57 /* Delegates */,
 				F41F5BC02058F07B008C3915 /* Controllers */,
 				F41F5BBF2058F04C008C3915 /* Data Model */,
 				F41F5BC12058F0AC008C3915 /* Views */,
@@ -127,6 +127,14 @@
 				F43761C32015E08E00853117 /* Info.plist */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		F45980CD216AFFD500656C57 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F43761B72015E08E00853117 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +172,7 @@
 				TargetAttributes = {
 					F43761B32015E08E00853117 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -407,14 +416,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5L829MT285;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToDoList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = VKApps.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = VitaliyKurbatov.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,14 +433,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5L829MT285;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToDoList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = VKApps.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = VitaliyKurbatov.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
